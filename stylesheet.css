@@ -1,0 +1,85 @@
+.brand-color{
+	color: red;
+}
+
+.card-resize{
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.card{
+	border: none;
+	align-items: : center;
+}
+
+.caro{
+	border: none;
+	align-items: center;
+	height: 10%;
+	width: 70%;
+	margin-right: 50%;
+}
+
+.footer{
+    background-color:#333333 ;
+}
+
+.footer__logo p  {
+    color:#ffffff;
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+    position: relative;
+}
+
+.footer__logo p span{
+    position: relative;
+}
+
+.footer__logo p span::after{
+    content: ".";
+     position: absolute;
+    font-size: 5rem;
+    bottom: -45px;
+    right: 63px;
+    color: var(--pink);
+}
+
+.footers__lists a, .footers__lists li{
+    color: white;
+}
+
+.footers__lists ul{
+    list-style-type: none;
+}
+
+.footers__lists li{
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.footer__icon{
+    position: absolute;
+    left: -30px;
+    color: var(--pink);
+}
+
+.footer__social{
+    color: #f2f2f2ad;
+}
+
+.footer__socialIcons a{
+    color:     var(--pink);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer__socialIcons a:hover{
+    opacity: 0.6;
+}
+
+@media screen and (max-width:767px){
+    .footers__list1, .footers__list2{
+        text-align: center;
+    }
+}
